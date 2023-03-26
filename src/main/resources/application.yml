@@ -1,0 +1,26 @@
+###ThymeLeaf??
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    content-type: text/html
+    mode: HTML5
+  mvc:
+    static-path-pattern: /**
+  resources:
+    static-locations: classpath:/../zy/**
+
+server:
+  port: 8081
+
+
+datasource:
+  url: jdbc:mysql://localhost:3306/db?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false
+  username: root
+  password: as1230.0
+
+
+
+
